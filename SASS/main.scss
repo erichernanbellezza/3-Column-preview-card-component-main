@@ -32,17 +32,32 @@ main {
 		button {
 			color: hsl(31, 77%, 52%);
 		}
+		button:hover {
+			border: white 1px solid;
+			background: none;
+			color: white;
+		}
 	}
 	.secondContainer {
 		background: hsl(184, 100%, 22%);
 		button {
 			color: hsl(184, 100%, 22%);
 		}
+		button:hover {
+			border: white 1px solid;
+			background: none;
+			color: white;
+		}
 	}
 	.thirdContainer {
 		background: hsl(179, 100%, 13%);
 		button {
 			color: hsl(179, 100%, 13%);
+		}
+		button:hover {
+			border: white 1px solid;
+			background: none;
+			color: white;
 		}
 	}
 }
